@@ -71,9 +71,10 @@ picture {
 .primary-header {
   position: fixed;
   width: 100%;
-  padding: 4.8rem;
+  padding: 3.2rem 4.8rem;
   display: flex;
   justify-content: space-between;
+  z-index: 100;
 }
 
 .nav-links {
@@ -111,7 +112,6 @@ picture {
   background-position: bottom;
   height: 100vh;
   position: relative;
-  z-index: -1;
 }
 
 .hero-content {
