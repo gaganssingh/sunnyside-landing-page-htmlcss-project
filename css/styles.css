@@ -57,3 +57,8 @@ body {
   font-size: 1.8rem;
   font-weight: var(--fw-600);
 }
+
+img {
+  width: 150px;
+  background-color: var(--clr-red);
+}
