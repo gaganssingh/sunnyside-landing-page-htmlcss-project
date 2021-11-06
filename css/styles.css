@@ -18,7 +18,7 @@
   /* COLORS */
   --clr-red: hsl(7, 99%, 70%);
   --clr-yellow: hsl(51, 100%, 49%);
-  --clr-dark-cyan: hsl(168, 34%, 41%);
+  --clr-cyan: hsl(168, 34%, 41%);
   --clr-cyan-desaturated: hsl(167, 40%, 24%);
   --clr-dark-blue: hsl(198, 62%, 26%);
 
@@ -304,4 +304,50 @@ picture {
 .testimonial-author p {
   font-size: 1.2rem;
   color: var(--clr-gray);
+}
+
+/* ---------------------
+        PROJECTS SECTION
+--------------------- */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.projects img {
+  width: 100%;
+}
+
+/* ---------------------
+        FOOTER SECTION
+--------------------- */
+.primary-footer {
+  padding: 7rem;
+  background-color: hsl(167, 44%, 70%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.primary-footer .nav-link a {
+  color: var(--clr-cyan);
+  font-size: 1.6rem;
+}
+
+.primary-footer .social-links {
+  margin-top: 4rem;
+  display: flex;
+  list-style: none;
+  gap: 4rem;
+  font-size: 2.4rem;
+}
+
+.primary-footer .social-link a {
+  color: var(--clr-cyan-desaturated);
+}
+
+.primary-footer .nav-link a:hover,
+.primary-footer .social-links a:hover {
+  color: var(--clr-white);
 }
