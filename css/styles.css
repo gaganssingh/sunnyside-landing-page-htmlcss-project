@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Fraunces:wght@700;900&display=swap");
+
+/* ---------------------
+        VARIABLES
+--------------------- */
+:root {
+  /* FONT FAMILIES */
+  --ff-serif: "Fraunces", serif;
+  --ff-sans-serif: "Barlow", sans-serif;
+
+  /* FONT SIZES */
+
+  /* FONT WEIGHTS */
+  --fw-600: 600;
+  --fw-700: 700;
+  --fw-900: 900;
+
+  /* COLORS */
+  --clr-red: hsl(7, 99%, 70%);
+  --clr-yellow: hsl(51, 100%, 49%);
+  --clr-dark-cyan: hsl(168, 34%, 41%);
+  --clr-cyan-desaturated: hsl(167, 40%, 24%);
+  --clr-dark-blue: hsl(198, 62%, 26%);
+
+  /* GRAYS */
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-gray: hsl(210, 4%, 67%);
+  --clr-dark-gray: hsl(232, 10%, 55%);
+  --clr-darker-gray: hsl(213, 9%, 39%);
+  --clr-darkest-grey: hsl(212, 27%, 19%);
+}
+
+/* ---------------------
+        RESETS
+--------------------- */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: inherit;
+}
+
+/* ---------------------
+        DEFAULTS
+--------------------- */
+body {
+  font-family: var(--ff-sans-serif);
+  font-size: 1.8rem;
+  font-weight: var(--fw-600);
+}
